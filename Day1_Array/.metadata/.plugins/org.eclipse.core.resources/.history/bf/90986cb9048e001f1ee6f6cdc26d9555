@@ -1,0 +1,8 @@
+package cdac.acts.containDuplicate;
+
+public class ArayContainDuplicate {
+	public static void main(String arg[])
+	{
+		System.out.println("Checking Contain duplicate element in array");
+	}
+}

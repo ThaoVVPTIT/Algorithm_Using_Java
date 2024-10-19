@@ -1,0 +1,8 @@
+package cdac.acts.missingNumber;
+
+public class MissingNumberOfArray {
+	public static void main(String arg[])
+	{
+		System.out.println("Number of arrays");
+	}
+}

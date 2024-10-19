@@ -1,0 +1,36 @@
+package cdac.acts.remove;
+import java.util.Scanner;
+import cdac.acts.exception.NotFoundElementValueException;
+
+public class RemoveElementByValue {
+	public static int removeElementByValue(int arr[], int val) throws NotFoundElementValueException
+	{
+		int k = 0;
+		boolean checking = false;
+		for(int i = 0; i < arr.length; i++)
+		{
+			if(arr[i] != val)
+			{
+				arr[k] = arr[i];
+				k++;
+				checking = true;
+			}
+		}
+		if(checking == false)
+		{
+			throw new NotFoundElementValueException("Not Found Element Value you want to delete it In Arrays");
+		}
+		return k;
+	}
+	public static void main(String arg[])
+	{
+		Scanner scan = new Scanner(System.in);
+		int test;
+		System.out.println("Enter Number of Test you want ");
+		test = scan.nextInt();
+		for(int i = 0; i < test; i++)
+		{
+			
+		}
+	}
+}

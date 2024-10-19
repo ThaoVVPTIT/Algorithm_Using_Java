@@ -1,0 +1,12 @@
+package cdac.acts.moveZeros;
+
+public class MoveZerosInLastArray {
+	public static void main(String arg[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Array affter move zeros in Last ");
+		System.out.println("Enter size of Arrays");
+		int n = scan.nextInt();
+		MoveZerosInLast(arr);
+	}
+}

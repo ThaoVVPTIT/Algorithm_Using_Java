@@ -1,0 +1,16 @@
+package cdac.acts.missingNumber;
+
+import java.util.Scanner;
+
+public class MissingNumberOfArray {
+	public static void main(String arg[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter Size of Array");
+		int n = scan.nextInt();
+		int []arr = new int[n];
+		int number = MissingNumber(arr);
+		System.out.println("Number of arrays missing is = " + number);
+	}
+}
+

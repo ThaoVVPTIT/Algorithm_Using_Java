@@ -1,0 +1,28 @@
+package cdac.acts.containDuplicate;
+
+import java.util.Scanner;
+
+public class ArayContainDuplicate {
+	public static boolean DuplicateContainElemnt(int []arr)
+	{
+		for(int i = 0; i < arr.length; i++)
+		{
+			for(int j = i + 1; j < arr.length; j++)
+			{
+				if(arr[i] == arr[j])
+				{
+					return true;
+				}
+			}
+		}
+	}
+	public static void main(String arg[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Checking Contain duplicate element in array");
+		System.out.println("Enter size of Array");
+		int n = scan.nextInt();
+		int []arr = new int[n];
+		boolean checking = DuplicateContainElemnt(arr);
+	}
+}

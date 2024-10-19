@@ -1,0 +1,8 @@
+package cdac.acts.remove;
+
+public class RemoveElementByValue {
+	public static void main(String arg[])
+	{
+		System.out.println("Arrays after remove element by Value");
+	}
+}

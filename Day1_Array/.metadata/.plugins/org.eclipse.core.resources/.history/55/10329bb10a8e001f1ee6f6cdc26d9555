@@ -1,0 +1,8 @@
+package cdac.acts.moveZeros;
+
+public class MoveZerosInLastArray {
+	public static void main(String arg[])
+	{
+		System.out.println("Array affter move zeros in Last ");
+	}
+}
