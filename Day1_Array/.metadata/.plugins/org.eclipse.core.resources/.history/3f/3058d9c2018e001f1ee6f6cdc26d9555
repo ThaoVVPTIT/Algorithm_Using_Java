@@ -1,9 +1,0 @@
-package cdac.acts.addone;
-
-public class AddOneInLastElement {
-	public static void main(String arg[])
-	{
-		System.out.println("Array after add one in Last Elenment");
-		int k = addOneInLastElement(arr);
-	}
-}

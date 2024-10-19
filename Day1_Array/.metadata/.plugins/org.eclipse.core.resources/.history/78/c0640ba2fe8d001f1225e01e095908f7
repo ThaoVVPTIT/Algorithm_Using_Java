@@ -1,5 +1,0 @@
-package cdac.acts.exception;
-
-public class NotFoundElementValueException extends Ex{
-
-}

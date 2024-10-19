@@ -1,0 +1,23 @@
+Assignments:
+Q1. Define Queue as ADT (Refer to class notes).
+
+Q2. Implement a Generic Queue class using array that implements the Queue interface defined in Q1.
+Throw appropriate exception when required.
+(Refer to class notes)
+
+Q3. Implement a Stack class using resizable array that implements the Stack interface defined in class.
+Throw appropriate exception when required.
+
+
+
+Reference links:
+https://en.wikipedia.org/wiki/List_of_data_structures
+https://en.wikipedia.org/wiki/List_of_algorithms
+
+
+
+20. Valid Parentheses
+https://leetcode.com/problems/valid-parentheses/
+
+1381. Design a Stack With Increment Operation
+https://leetcode.com/problems/design-a-stack-with-increment-operation/description/
