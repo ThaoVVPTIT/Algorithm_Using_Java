@@ -1,0 +1,11 @@
+package cdac.acts.stack;
+
+import cdac.acts.exception.StackOverflowException;
+
+public interface Stack {
+	public void push(int element) throws StackOverflowException;
+	public int pop();
+	public int peek();
+	public boolean isEmpty();
+	public boolean isFull();
+}

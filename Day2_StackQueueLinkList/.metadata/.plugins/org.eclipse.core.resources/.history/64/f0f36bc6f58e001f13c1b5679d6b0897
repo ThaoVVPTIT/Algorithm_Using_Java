@@ -1,0 +1,14 @@
+package cdac.acts.parenthes;
+
+import java.util.Stack;
+
+public class OperatorRight {
+	public static boolean isValidSynbolPattern(String s)
+	{
+		Stack<Character> stk = new Stack<Character>();
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

@@ -1,0 +1,50 @@
+package cdac.acts.stack;
+
+import cdac.acts.exception.StackOverflowException;
+
+public class CreateStack implements Stack{
+	private int top;
+	private int []StackData = new int[top];
+	@Override
+	public void push(int element) throws StackOverflowException {
+		if(top == StackData.length)
+		{
+			throw new StackOverflowException("Stack is full, cannot push element: " + element);
+		}
+		top++;
+		StackData[top] = element;
+	}
+	@Override
+	public int pop() {
+		if(StackData.length == 0)
+		{
+			return -1;
+		}
+		--top;
+		return StackData[top];
+	}
+
+
+	@Override
+	public boolean isEmpty() {
+		if(StackData.length == 0)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public boolean isFull() {
+		if(StackData.length == top)
+		{
+			return true;
+		}
+		return false;
+	}
+	@Override
+	public void FixsizeStack(int size) {
+		StackData = new int[size];
+		top = -1;	
+	}
+}

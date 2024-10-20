@@ -1,0 +1,8 @@
+package cdac.acts.stack;
+
+public class BracesBasic {
+	public static void main(String arg[])
+	{
+		StackCreate stack = new FixSize
+	}
+}

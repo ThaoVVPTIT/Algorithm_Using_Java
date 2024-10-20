@@ -1,0 +1,43 @@
+package cdac.acts.stack;
+
+public class StackCreate implements Stack{
+	private int top;
+	private int []StackData;
+	@Override
+	public void push(int element) {
+		if(isFull())
+		{
+			return;
+		}
+		top++;
+		StackData[top] = element;
+	}
+
+	@Override
+	public int pop() {
+		if(isEmpty())
+		{
+			
+		}
+		return 0;
+	}
+
+	@Override
+	public void FixSize(int size) {
+		StackData = new int[size];
+		top = -1;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isFull() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

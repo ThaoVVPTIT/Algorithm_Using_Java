@@ -1,0 +1,10 @@
+package cdac.acts.stack;
+
+public class BracesBasic {
+	public static void main(String arg[])
+	{
+		StackCreate stack = new StackCreate(5);
+		stack.push('(');
+		System.out.println(stack.pop().to);
+	}
+}

@@ -1,0 +1,10 @@
+package cdac.acts.stack;
+
+public class TestCreateStack {
+	public static void main(String arg[])
+	{
+		CreateStack stack1 = new CreateStack();
+		stack1.FixsizeStack(5);
+		
+	}
+}

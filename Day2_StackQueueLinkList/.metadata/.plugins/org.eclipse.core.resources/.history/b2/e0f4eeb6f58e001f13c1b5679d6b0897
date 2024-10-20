@@ -1,0 +1,12 @@
+package cdac.acts.parenthes;
+
+public class OperatorRight {
+	public static boolean isValidSynbolPattern(String s)
+	{
+		
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

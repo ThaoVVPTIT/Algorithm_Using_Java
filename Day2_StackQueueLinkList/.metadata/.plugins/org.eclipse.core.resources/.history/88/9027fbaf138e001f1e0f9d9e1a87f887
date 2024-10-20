@@ -1,0 +1,15 @@
+package cdac.acts.stack;
+
+import cdac.acts.exception.StackOverflowException;
+
+public class TestCreateStack {
+	public static void main(String arg[]) throws StackOverflowException
+	{
+		CreateStack stack1 = new CreateStack();
+		stack1.FixsizeStack(5);
+		stack1.push(12);
+		stack1.push(12);
+		stack1.push(12);
+		stack1.push(12);
+	}
+}

@@ -1,0 +1,16 @@
+package cdac.acts.stack;
+
+public class BracesBasic {
+	public static void CheckingBraces(String s)
+	{
+		for(int i = 0; i < s.length(); i++)
+		{
+			char c = s[i];
+		}
+	}
+	public static void main(String arg[])
+	{
+		StackCreate stack = new StackCreate(5);
+		String c = "())))))";
+	}
+}

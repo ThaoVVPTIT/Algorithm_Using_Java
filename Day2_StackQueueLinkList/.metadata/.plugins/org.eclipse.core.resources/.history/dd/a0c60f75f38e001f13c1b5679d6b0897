@@ -1,0 +1,28 @@
+package cdac.acts.stack;
+
+public class BracesBasic {
+	public static void CheckingBraces(String s)
+	{
+		StackCreate stack = new StackCreate(s.length());
+		for(int i = 0; i < s.length(); i++)
+		{
+			char c = s.charAt(i);
+			if(c == '(' || c == '{' || c == '[')
+			{
+				stack.push(c);
+			}
+			else if(c == ')' || c == '}' || c == ']')
+			{
+				if(stack.isEmpty())
+				{
+					return;
+				}
+			}
+		}
+	}
+	public static void main(String arg[])
+	{
+		
+		String c = "())))))";
+	}
+}

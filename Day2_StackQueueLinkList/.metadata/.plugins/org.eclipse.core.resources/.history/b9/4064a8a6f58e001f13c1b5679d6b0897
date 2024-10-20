@@ -1,0 +1,8 @@
+package cdac.acts.parenthes;
+
+public class OperatorRight {
+	public static void main(String arg[])
+	{
+		
+	}
+}
