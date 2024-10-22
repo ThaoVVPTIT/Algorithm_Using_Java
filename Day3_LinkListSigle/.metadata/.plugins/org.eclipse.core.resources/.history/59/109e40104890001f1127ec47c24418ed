@@ -1,0 +1,5 @@
+package cdac.node;
+
+public interface SNode {
+
+}

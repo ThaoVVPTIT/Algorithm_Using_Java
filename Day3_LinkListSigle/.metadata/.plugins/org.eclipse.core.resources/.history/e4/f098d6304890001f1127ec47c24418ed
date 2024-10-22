@@ -1,0 +1,11 @@
+package cdac.node;
+
+public class SLNode {
+	private int data;
+	private SLNode next;
+	public SLNode(int data)
+	{
+		this.next = null;
+		this.data = data;
+	}
+}

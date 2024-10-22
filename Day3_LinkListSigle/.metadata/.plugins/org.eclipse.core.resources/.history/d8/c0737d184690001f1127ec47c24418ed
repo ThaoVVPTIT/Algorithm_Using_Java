@@ -1,0 +1,10 @@
+package cdac.node;
+
+public class NodeClass {
+	private NodeClass next;
+	private int data;
+	public NodeClass(int data)
+	{
+		this.next = null;
+	}
+}
