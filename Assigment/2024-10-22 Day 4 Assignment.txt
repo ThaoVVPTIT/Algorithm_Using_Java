@@ -1,0 +1,15 @@
+Assignment 1: For sorted singly linked list, implement
+a) following function to delete the specified element
+   void delete(int element);
+b) following function to delete all occurrences of specified element
+   void deleteAll(int element);
+a) following function to return true if specified element is present in list else return false
+   boolean search(int element);
+Refer to the interface (SortedList) and partial implementation (class SortedSinglyList) done in class today.
+
+Assignment 2: For doubly linked list, implement
+a) following function to add specified element at the end list
+   void addAtRear(int element);
+a) following function to remove first node and return its value. Function should throw appropriate exception is list is empty.
+   int deleteFirstNode();
+Refer to the interface (DList) and partial implementation (class DoublyList) done in class today.
