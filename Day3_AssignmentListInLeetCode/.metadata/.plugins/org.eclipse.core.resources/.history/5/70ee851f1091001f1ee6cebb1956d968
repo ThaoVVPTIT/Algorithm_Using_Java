@@ -1,0 +1,16 @@
+package cdac.converBinaryToDecimal;
+
+
+
+public class ConvertBinaryToDecimal {
+	public int getDecimalValue(ListNode head) {
+		if(head == null)
+		{
+			return 0;
+		}
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

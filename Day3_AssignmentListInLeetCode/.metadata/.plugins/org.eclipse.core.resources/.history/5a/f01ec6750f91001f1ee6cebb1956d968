@@ -1,0 +1,8 @@
+package cdac.converBinaryToDecimal;
+
+public class ConvertBinaryToDecimal {
+	public static void main(String arg[])
+	{
+		
+	}
+}

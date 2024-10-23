@@ -1,0 +1,8 @@
+package cdac.mergeListSorted;
+
+public class MergeList {
+	public static void main(String arg[])
+	{
+		System.out.println("merge List");
+	}
+}

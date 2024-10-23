@@ -1,0 +1,48 @@
+package cdac.converBinaryToDecimal;
+
+
+
+public class ConvertBinaryToDecimal {
+	public static int getDecimalValue(ListNode head) {
+		if(head == null)
+		{
+			return 0;
+		}
+		ListNode current = head;
+		ListNode previous = null;
+		ListNode next = null;
+		int sum = 0;
+		while(current != null)
+		{
+			next = current.next;
+			current.next = previous;
+			previous = current;
+			current = next;
+		}
+		while(previous != null)
+		{
+			int i = 0;
+			sum += previous.val*2^i;
+			previous = previous.next;
+		}
+		return sum;
+	}
+	public static void main(String arg[])
+	{
+		System.out.println("List Reverse");
+		ListNode head = new ListNode();
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(6);
+        head.next.next.next = new ListNode(3);
+        head.next.next.next.next = new ListNode(4);
+        head.next.next.next.next.next = new ListNode(5);
+        head.next.next.next.next.next.next = new ListNode(6);
+        ListNode newHead = getDecimalValue(head);
+        ListNode current = newHead;
+        while(current != null)
+        {
+        	System.out.print(current.data + " ");
+        	current = current.next;
+        }
+	}
+}

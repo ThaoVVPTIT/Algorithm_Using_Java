@@ -1,0 +1,23 @@
+package cdac.mergeListSorted;
+
+public class MergeList {
+	public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+		ListNode dummy = new ListNode();
+		ListNode current = dummy;
+		while(current != null)
+		{
+			if(list1.val < list2.val)
+			{
+				current = list1;
+				list1 = list1.next;
+			}
+			else
+			{
+				current = list2.val;
+			}
+		}
+	}
+	public static void main(String arg[]) {
+		System.out.println("merge List");
+	}
+}

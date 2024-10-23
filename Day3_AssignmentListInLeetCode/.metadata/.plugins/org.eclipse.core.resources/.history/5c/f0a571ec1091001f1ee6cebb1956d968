@@ -1,0 +1,31 @@
+package cdac.converBinaryToDecimal;
+
+
+
+public class ConvertBinaryToDecimal {
+	public int getDecimalValue(ListNode head) {
+		if(head == null)
+		{
+			return 0;
+		}
+		ListNode current = head;
+		ListNode previous = null;
+		ListNode next = null;
+		int sum = 0;
+		while(current != null)
+		{
+			next = current.next;
+			current.next = previous;
+			previous = current;
+			current = next;
+		}
+		while(previous != null)
+		{
+			
+		}
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

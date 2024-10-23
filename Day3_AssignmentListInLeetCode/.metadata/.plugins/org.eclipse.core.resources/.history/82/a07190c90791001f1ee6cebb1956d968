@@ -1,0 +1,12 @@
+package cdac.removeDuplicateList;
+
+public class RemoveDuplicateList {
+	public ListNode deleteDuplicates(ListNode head) {
+		
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

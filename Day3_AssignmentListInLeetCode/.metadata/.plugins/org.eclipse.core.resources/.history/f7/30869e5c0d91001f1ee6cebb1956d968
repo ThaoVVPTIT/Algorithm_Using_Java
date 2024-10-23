@@ -1,0 +1,23 @@
+package cdac.reverseList;
+
+public class ReverseLinkList {
+	public ListNode reverseList(ListNode head) {
+		if(head == null || head.next == null)
+		{
+			return head;
+		}
+		ListNode current = head;
+		ListNode previous = null;
+		ListNode next = null;
+		while(current != null)
+		{			
+			next = current.next;
+			current.next = previous;
+			
+		}
+	}
+	public static void main(String arg[])
+	{
+		System.out.println("List Reverse");
+	}
+}

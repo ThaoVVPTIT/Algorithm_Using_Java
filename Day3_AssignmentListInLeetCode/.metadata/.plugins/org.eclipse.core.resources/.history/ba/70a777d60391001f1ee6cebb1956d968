@@ -1,0 +1,12 @@
+package cdac.removelistelement;;
+public class RemoveElement {
+	private ListNode headr;
+	public ListNode removeElements(ListNode head, int val) {
+		ListNode newNode = new ListNode(val, head);
+		if()
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

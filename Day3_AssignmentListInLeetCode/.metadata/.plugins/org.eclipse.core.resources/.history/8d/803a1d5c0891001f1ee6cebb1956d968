@@ -1,0 +1,38 @@
+package cdac.removeDuplicateList;
+
+
+public class RemoveDuplicateList {
+	public static ListNode deleteDuplicates(ListNode head) {
+		
+		ListNode current = head;
+		while(current != null && current.next != null)
+		{
+			if(current.val == current.next.val)
+			{
+				previous.next = current.next;
+			}
+			else previous = current;
+			current = current.next;
+		}
+		return dummy.next;
+	}
+	public static void main(String[] args) {
+		RemoveDuplicateList re = new RemoveDuplicateList();
+		ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(6);
+        head.next.next.next = new ListNode(3);
+        head.next.next.next.next = new ListNode(4);
+        head.next.next.next.next.next = new ListNode(5);
+        head.next.next.next.next.next.next = new ListNode(6);
+        ListNode newHead = re.deleteDuplicates(head);
+        ListNode current = newHead;
+        while(current != null)
+        {
+        	System.out.print(current.val + " ");
+        	current = current.next;
+        }
+
+	}
+
+}
