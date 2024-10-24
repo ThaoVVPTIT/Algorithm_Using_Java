@@ -1,0 +1,12 @@
+package cdac.node;
+
+public class SLNode {
+	public static void insert(int data)
+	{
+		
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

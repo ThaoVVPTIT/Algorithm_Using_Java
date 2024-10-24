@@ -1,0 +1,18 @@
+package cdac.node;
+
+public class SLNode {
+	private Node head;
+	public SLNode()
+	{
+		this.head = null;
+	}
+	public static void insert(int data)
+	{
+		Node node = new Node(data);
+		
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

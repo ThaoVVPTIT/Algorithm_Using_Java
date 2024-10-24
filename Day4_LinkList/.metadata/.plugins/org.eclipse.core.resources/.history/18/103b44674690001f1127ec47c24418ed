@@ -1,0 +1,8 @@
+package cdac.node;
+
+public interface Node {
+	public void insertNode(int data);
+	public void deleteNode(int data);
+	public void print();
+	
+}

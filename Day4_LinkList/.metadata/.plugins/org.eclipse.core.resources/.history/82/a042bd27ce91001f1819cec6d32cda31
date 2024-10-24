@@ -1,0 +1,13 @@
+package cdac.doublelinklist;
+
+public class DBNodeCreate implements DBListFunction{
+	int data;
+	DBNode head;
+	DBNode tail;
+	
+	public DBNodeCreate()
+	{
+		this.data = 0;
+	}
+	
+}

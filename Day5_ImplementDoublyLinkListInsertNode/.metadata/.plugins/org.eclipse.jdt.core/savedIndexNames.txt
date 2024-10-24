@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\CDAC\ADS_UsingJava\Day5_ImplementDoublyLinkListInsertNode\.metadata\.plugins\org.eclipse.jdt.core
+1190742265.index
+1865797976.index
+3413725848.index

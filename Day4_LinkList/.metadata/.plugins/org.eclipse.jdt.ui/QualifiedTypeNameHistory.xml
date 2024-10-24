@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="cdac.node.Node"/>
+    <fullyQualifiedTypeName name="cdac.node.SLNode"/>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="cdac.node.SortedList"/>
+    <fullyQualifiedTypeName name="cdac.node.SortedSigleList"/>
+    <fullyQualifiedTypeName name="cdac.doublelinklist.DBListFunction"/>
+    <fullyQualifiedTypeName name="cdac.doublelinklist.DBNode"/>
+    <fullyQualifiedTypeName name="cdac.doublelinklist.DBNodeCreate"/>
+</qualifiedTypeNameHistroy>

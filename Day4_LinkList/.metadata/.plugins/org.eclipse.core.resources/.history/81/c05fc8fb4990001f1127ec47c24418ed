@@ -1,0 +1,66 @@
+package cdac.node;
+
+import java.security.PrivateKey;
+
+public class SortedSigleList implements SortedList{
+	private SLNode head;
+	public SortedSigleList()
+	{
+		this.head = null;
+	}
+	@Override
+	public void insert(int element) {
+		SLNode newNode = new SLNode(element);
+		if(head == null)
+		{
+			head = newNode;
+		}
+		SLNode current = head;
+		SLNode previos = null;
+		else
+		{
+			while(current != null)
+			{
+				/*Find value of anyNode in List 
+				 * but if value at here greater than value insert.
+				 * We are break it */
+				if(current.data > newNode.data)
+				{
+					
+					break;
+				}
+				/*finding successful -> previos = currentnode*/
+				previos = current;
+				/*Node greater than will need change*/
+				current = current.next;
+			}
+		}
+		/*Checking list only node*/
+		if(pri)
+	}
+
+	@Override
+	public void delete(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAll(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean search(int element) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

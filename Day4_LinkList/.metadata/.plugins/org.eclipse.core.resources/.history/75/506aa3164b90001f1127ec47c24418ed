@@ -1,0 +1,11 @@
+package cdac.node;
+
+public class SLNodeMain {
+
+	public static void main(String[] args) {
+		SortedList list = new SortedSigleList();
+		
+
+	}
+
+}

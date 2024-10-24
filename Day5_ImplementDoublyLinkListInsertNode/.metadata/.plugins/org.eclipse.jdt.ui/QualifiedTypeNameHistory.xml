@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="cdac.doublyLinkList.DBFunctionList"/>
+    <fullyQualifiedTypeName name="cdac.doublyLinkList.DBNode"/>
+    <fullyQualifiedTypeName name="cdac.doublyLinkList.DBNodeCreate"/>
+    <fullyQualifiedTypeName name="cdac.sorteddoublyList.DBList"/>
+    <fullyQualifiedTypeName name="cdac.sorteddoublyList.SortedDoublyList"/>
+</qualifiedTypeNameHistroy>

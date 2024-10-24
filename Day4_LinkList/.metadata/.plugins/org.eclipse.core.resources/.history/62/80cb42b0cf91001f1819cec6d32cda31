@@ -1,0 +1,9 @@
+package cdac.doublelinklist;
+
+public class TestDBNode {
+	public static void main(String arg[])
+	{
+		System.out.println("Test Double Linked List");
+		DBNode node = new DBNode(1);
+	}
+}

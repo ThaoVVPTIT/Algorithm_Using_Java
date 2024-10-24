@@ -1,0 +1,38 @@
+package cdac.node;
+
+public class SLNode implements Node{
+	private NodeClass head;
+	public SLNode(int data)
+	{
+		this.head = null;
+	}
+	@Override
+	public void insertNode(int data) {
+		NodeClass newnode = new NodeClass(data);
+		if(head == null)
+		{
+			head = newnode;
+		}
+		else
+		{
+			NodeClass current = head;
+			while(current.next != null)
+			{
+				
+			}
+		}
+	}
+
+	@Override
+	public void deleteNode(int data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

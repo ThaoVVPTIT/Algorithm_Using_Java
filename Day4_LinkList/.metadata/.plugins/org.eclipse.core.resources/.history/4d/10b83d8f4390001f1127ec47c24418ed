@@ -1,0 +1,24 @@
+package cdac.node;
+
+public class SLNode implements Node{
+	private SLNode node1;
+	private int data;
+	@Override
+	public void insertNode(int data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteNode(int data) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

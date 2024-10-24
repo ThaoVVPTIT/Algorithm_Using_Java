@@ -1,0 +1,12 @@
+package cdac.sorteddoublyList;
+
+public class SortedDoublyList implements DBL{
+	private DBNode head;
+	private DBNode tail;
+	
+	public SortedDoublyList()
+	{
+		
+	}
+	
+}

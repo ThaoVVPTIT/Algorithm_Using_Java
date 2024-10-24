@@ -1,0 +1,5 @@
+package cdac.doublyLinkList;
+
+public interface DBNode {
+
+}

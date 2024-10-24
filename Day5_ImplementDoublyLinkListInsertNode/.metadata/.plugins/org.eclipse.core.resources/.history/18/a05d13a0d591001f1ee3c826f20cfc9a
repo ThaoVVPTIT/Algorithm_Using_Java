@@ -1,0 +1,17 @@
+package cdac.sorteddoublyList;
+
+package cdac.doublyLinkList;
+
+import cdac.doublyLinkList.DBNode;
+
+public class DBNode {
+	int data;
+	DBNode previous;
+	DBNode next;
+	
+	public DBNode(int val)
+	{
+		this.data = val;
+	}
+}
+

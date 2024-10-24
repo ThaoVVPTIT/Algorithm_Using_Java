@@ -1,0 +1,4 @@
+package cdac.doublelinklist;
+
+public interface DBListFunction {
+}

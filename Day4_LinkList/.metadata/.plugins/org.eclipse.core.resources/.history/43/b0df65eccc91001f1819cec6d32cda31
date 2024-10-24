@@ -1,0 +1,9 @@
+package cdac.doublelinklist;
+
+public class DBNode {
+	int data;
+	DBNode next;
+	DBNode previous;
+	
+	
+}
