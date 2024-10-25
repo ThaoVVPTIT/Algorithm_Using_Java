@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\CDAC\ADS_UsingJava\Day6_CursionAndTree\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+527231807.index
+2420995280.index

@@ -1,0 +1,22 @@
+package cdac.recursion;
+
+import java.util.Scanner;
+
+public class ModuloRecursionWapper {
+	public static int ModulationWrapper(int a, int b)
+	{
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("Programming ModuloRecursion");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a = ");
+		int a = scan.nextInt();
+		System.out.println("Enter b = ");
+		int b = scan.nextInt();
+		int result = ModulationWrapper(a, b);
+		scan.close();
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package cdac.binaryTree;
+
+public interface BNTreeFunction {
+	public void createBinaryTree();
+	public void printUsingInOrder();
+	public void printUsingPostOrder();
+}

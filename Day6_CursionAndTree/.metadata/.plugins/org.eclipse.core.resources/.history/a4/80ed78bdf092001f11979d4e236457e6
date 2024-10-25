@@ -1,0 +1,6 @@
+package cdac.binaryTree;
+
+public interface BNTreeFunction {
+	public void createBinaryTree();
+	
+}

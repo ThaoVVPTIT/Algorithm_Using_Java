@@ -1,0 +1,12 @@
+Practice
+1. Binary Tree Level Order Traversal
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+2. Binary Tree Zigzag Level Order Traversal
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+
+3. Search in a Binary Search Tree
+https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+4. Validate Binary Search Tree
+https://leetcode.com/problems/validate-binary-search-tree/
