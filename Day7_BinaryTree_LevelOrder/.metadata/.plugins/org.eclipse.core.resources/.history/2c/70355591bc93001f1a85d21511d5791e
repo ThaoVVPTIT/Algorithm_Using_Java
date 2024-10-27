@@ -1,0 +1,8 @@
+package cdac.binaryLeetCode;
+
+public class TestLevelOrder {
+	public static void main(String arg[])
+	{
+		BNTree n1 = new BNTree(10);
+	}
+}

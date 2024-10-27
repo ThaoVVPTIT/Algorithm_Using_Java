@@ -1,0 +1,19 @@
+package cdac.ZigzachTreeNode;
+
+import java.util.List;
+
+public class BinaryTreeZigZacLevelOrder implements BNTreeZigZac{
+	public BNTree root;
+	public BinaryTreeZigZacLevelOrder()
+	{
+		
+	}
+	@Override
+	public List<List<Integer>> levelOrderZigZac(BNTree root, int val) {
+		if(root == null)
+		{
+			
+		}
+	}
+	
+}

@@ -1,0 +1,18 @@
+package cdac.searchBinarySearchTree;
+
+public class SearchBinarySearchTree implements SearchBinaryFunction{
+	public SearchBinarySearchTree()
+	{
+		
+	}
+	@Override
+	public NodeTree searchBST(NodeTree root, int val) {
+		if(root == null)
+		{
+			return null;
+		}
+		
+		return null;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package cdac.ValidateBinarySearchTree;
+
+public class ValidateBinarySearchTree {
+	private boolean isValidBST(TreeNode root, Integer min, Integer max)
+	{
+		if(root == null) return true;
+	}
+	 public boolean isValidBST(TreeNode root) {
+		 if(root == null) return false;
+		 
+		 return true;
+	 }
+}

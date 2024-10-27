@@ -1,0 +1,25 @@
+package cdac.searchBinarySearchTree;
+
+public class SearchUsingRecursionNodeUsingLevelOrder implements SearchBinaryFunction{
+	public SearchUsingRecursionNodeUsingLevelOrder() {}
+	@Override
+	public NodeTree searchBST(NodeTree root, int val) {
+		if(root == null) return null;
+		
+		NodeTree currentNode = root;
+		if(currentNode.data == val)
+		{
+			return currentNode;
+		}
+		if(currentNode.leftChild != null)
+		{
+			currentNode = searchBST(root.leftChild, val);
+		}
+		if(currentNode.rightChild != null)
+		{
+			currentNode = searchBST(root.rightChild, val)
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package cdac.searchBinarySearchTree;
+
+public class SearchBinarySearchTree implements SearchBinaryFunction{
+
+	@Override
+	public NodeTree searchBST(NodeTree root, int val) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

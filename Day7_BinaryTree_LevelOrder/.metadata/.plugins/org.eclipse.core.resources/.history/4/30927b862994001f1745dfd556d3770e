@@ -1,0 +1,9 @@
+package cdac.searchBinarySearchTree;
+
+public class NodeTree {
+	int data;
+	NodeTree leftChild;
+	public NodeTree() {}
+	public NodeTree(int val) {}
+	
+}

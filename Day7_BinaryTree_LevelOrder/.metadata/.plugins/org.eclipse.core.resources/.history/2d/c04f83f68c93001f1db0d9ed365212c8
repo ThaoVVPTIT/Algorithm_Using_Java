@@ -1,0 +1,6 @@
+package cdac.binary;
+
+public interface BNTreeFunction {
+	public void insertNodeOfTree(int element);
+	public void printUsingLevelOrder();
+}

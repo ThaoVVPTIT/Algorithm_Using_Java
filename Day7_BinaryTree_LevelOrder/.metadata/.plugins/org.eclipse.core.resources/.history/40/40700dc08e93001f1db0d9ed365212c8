@@ -1,0 +1,12 @@
+package cdac.binary;
+
+public class TestingBinaryInsertLevelOrder {
+	public static void main(String arg[])
+	{
+		System.out.println("Testing Binary Insert Level");
+		BinaryTreeLevelOrder binaryTreeLevel = new BinaryTreeLevelOrder();
+		binaryTreeLevel.insertLevelOrder(123);
+		binaryTreeLevel.insertLevelOrder(356);
+		
+	}
+}

@@ -1,0 +1,25 @@
+package cdac.preOrder;
+
+public class BinaryTreeTraversalPreOrder implements BNTreeFunction{
+	public BNTree root;
+	public BinaryTreeTraversalPreOrder() {}
+	@Override
+	public void CreateTree() {
+		BNTree n1 = new BNTree(1);
+		BNTree n2 = new BNTree(3);
+		BNTree n3 = new BNTree(4);
+		BNTree n4 = new BNTree(78);
+		
+	}
+	@Override
+	public void InsertTreeUseRecursion(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void printUsingPreOrder() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

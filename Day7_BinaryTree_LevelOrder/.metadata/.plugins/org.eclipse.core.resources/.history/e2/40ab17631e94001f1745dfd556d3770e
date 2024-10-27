@@ -1,0 +1,7 @@
+package cdac.binaryLeetCode;
+
+import java.util.List;
+
+public interface BNTreeFunctional {
+	public List<List<Integer>> levelOrder(BNTree root);
+}

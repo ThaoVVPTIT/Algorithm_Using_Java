@@ -1,0 +1,7 @@
+package cdac.ValidateBinarySearchTree;
+
+public class ValidateBinarySearchTree {
+	 public boolean isValidBST(TreeNode root) {
+		 return true;
+	 }
+}

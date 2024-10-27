@@ -1,0 +1,36 @@
+package cdac.searchBinarySearchTree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class SearchBinarySearchTree implements SearchBinaryFunction{
+	public SearchBinarySearchTree()
+	{
+		
+	}
+	@Override
+	public NodeTree searchBST(NodeTree root, int val) {
+		if(root == null)
+		{
+			return null;
+		}
+		NodeTree result = new NodeTree();
+		Queue<NodeTree> q = new LinkedList<NodeTree>();
+		q.offer(root);
+		while(!q.isEmpty())
+		{
+			int sizeLevel = q.size();
+			for(int i = 0; i < sizeLevel; i++)
+			{
+				NodeTree currentNode = q.poll();
+				if(currentNode.data == val)
+				{
+					result = currentNode;
+					return result;
+				}
+			}
+		}
+		return result;
+	}
+	
+}

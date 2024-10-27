@@ -1,0 +1,14 @@
+package cdac.ZigzachTreeNode;
+
+public class ZigZacBinaryNodeMain {
+	public static void main(String arg[])
+	{
+		BinaryTreeZigZacLevelOrder tree = new BinaryTreeZigZacLevelOrder();
+		
+		BNTree root = new BNTree(12);
+		root.leftChild.data = 13;
+		root.rightChild.leftChild = new BNTree(15);
+		root.rightChild.rightChild = new BNTree(43);
+		tree.levelOrderZigZac(root);
+	}
+}

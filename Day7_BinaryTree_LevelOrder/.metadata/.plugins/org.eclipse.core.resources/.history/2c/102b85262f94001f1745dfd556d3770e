@@ -1,0 +1,6 @@
+package cdac.ValidateBinarySearchTree;
+
+public class TreeNode {
+	int data;
+	TreeNode leftChild;
+}

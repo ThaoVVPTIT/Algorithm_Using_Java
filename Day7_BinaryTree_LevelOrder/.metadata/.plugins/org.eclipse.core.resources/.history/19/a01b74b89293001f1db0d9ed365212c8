@@ -1,0 +1,7 @@
+package cdac.levelOrder;
+
+public class BNTree {
+	int data;
+	BNTree leftchild;
+	BNTree rightchild;
+}

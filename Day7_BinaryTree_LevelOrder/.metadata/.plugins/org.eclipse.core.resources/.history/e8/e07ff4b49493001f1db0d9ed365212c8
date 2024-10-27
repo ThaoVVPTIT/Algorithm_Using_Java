@@ -1,0 +1,23 @@
+package cdac.orderLevel;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class BinaryTreeLevelOrder {
+	BNTree roots;
+	
+	public BinaryTreeLevelOrder() {}
+	
+	private List<List<Integer>> levelOrder(BNTree root)
+	{
+		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		if(root == null)
+		{
+			return result;
+		}
+		Queue<BNTree> q = new LinkedList<BNTree>();
+		while()
+	}
+}

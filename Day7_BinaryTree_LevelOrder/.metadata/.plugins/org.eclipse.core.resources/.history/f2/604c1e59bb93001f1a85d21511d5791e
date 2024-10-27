@@ -1,0 +1,7 @@
+package cdac.binaryLeetCode;
+
+public class BinaryTreeLevelTraverselOrder implements BNTreeFunctional{
+	public BNTree root;
+	public BinaryTreeLevelTraverselOrder() {}
+	
+}

@@ -1,0 +1,14 @@
+package cdac.binaryLeetCode;
+
+
+public class TestLevelOrder {
+	public static void main(String arg[])
+	{
+		BinaryTreeLevelTraverselOrder levelOrders = new BinaryTreeLevelTraverselOrder();
+		BNTree root = new BNTree(3);
+		root.leftChild = new BNTree(56);
+		root.rightChild = new BNTree(12);
+		root.rightChild.leftchild = new BNTree(13);
+		root.rightchild.rightchild = new BNTree(45);
+	}
+}

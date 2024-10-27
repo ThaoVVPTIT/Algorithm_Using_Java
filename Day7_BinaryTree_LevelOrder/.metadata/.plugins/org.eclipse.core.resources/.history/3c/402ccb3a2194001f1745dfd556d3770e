@@ -1,0 +1,11 @@
+package cdac.ZigzachTreeNode;
+
+public class BNTree {
+	int data;
+	BNTree leftChild;
+	BNTree rightChild;
+	public BNTree()
+	{
+		
+	}
+}

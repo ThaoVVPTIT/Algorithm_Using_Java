@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="cdac.preOrder.BNTreeFunction"/>
+    <fullyQualifiedTypeName name="cdac.preOrder.BNTree"/>
+    <fullyQualifiedTypeName name="cdac.preOrder.BinaryTreeTraversalPreOrder"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="cdac.binaryLeetCode.BNTreeFunctional"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="cdac.binaryLeetCode.BNTree"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="cdac.binaryLeetCode.BinaryTreeLevelTraverselOrder"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

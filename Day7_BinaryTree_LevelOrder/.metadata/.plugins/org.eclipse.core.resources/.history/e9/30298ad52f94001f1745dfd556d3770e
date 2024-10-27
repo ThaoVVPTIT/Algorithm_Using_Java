@@ -1,0 +1,17 @@
+package cdac.ValidateBinarySearchTree;
+
+public class TreeNode {
+	int val;
+	TreeNode leftChild;
+	TreeNode rightChild;
+	public TreeNode() {}
+	public TreeNode(int val)
+	{
+		this.data = val;
+	}
+	@Override
+	public String toString() {
+		return "TreeNode [data=" + data + "]";
+	}
+	
+}

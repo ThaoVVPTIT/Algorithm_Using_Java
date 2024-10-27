@@ -1,0 +1,19 @@
+package cdac.levelOrder;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BinaryTreeLevelOrder {
+	public BNTree roots;
+	public BinaryTreeLevelOrder() {
+		
+	}
+	public List<List<Integer>> levelOrder(BNTree root) {
+		List<List<Integer>> result = new ArrayList<>();
+		if(root == null)
+		{
+			return result;
+		}
+		
+	}
+}

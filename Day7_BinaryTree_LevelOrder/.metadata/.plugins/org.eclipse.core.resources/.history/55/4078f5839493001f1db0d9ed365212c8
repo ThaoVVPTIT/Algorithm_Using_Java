@@ -1,0 +1,8 @@
+package cdac.orderLevel;
+
+public class BinaryTreeLevelOrder {
+	BNTree roots;
+	
+	public BinaryTreeLevelOrder() {}
+	
+}

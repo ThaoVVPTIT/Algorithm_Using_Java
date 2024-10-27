@@ -1,0 +1,6 @@
+package cdac.searchBinarySearchTree;
+
+public interface SearchBinaryFunction {
+	public NodeTree searchBST(NodeTree root, int val);
+	void printPreOrder(NodeTree node);
+}

@@ -1,0 +1,21 @@
+package cdac.ValidateBinarySearchTree;
+
+public class ValidateBinarySearchTree {
+	private boolean isValidBST(TreeNode root, Integer min, Integer max)
+	{
+		if(root == null) return true;
+		 if ((min != null && node.val <= min) || (max != null && node.val >= max)) {
+		        return false;
+		    }
+
+		    // Kiểm tra cây con bên trái với giá trị tối đa là node.val
+		    // và cây con bên phải với giá trị tối thiểu là node.val
+		    return isValidBSTHelper(node.left, min, node.val) && 
+		           isValidBSTHelper(node.right, node.val, max);
+	}
+	 public boolean isValidBST(TreeNode root) {
+		 if(root == null) return false;
+		 
+		 return true;
+	 }
+}

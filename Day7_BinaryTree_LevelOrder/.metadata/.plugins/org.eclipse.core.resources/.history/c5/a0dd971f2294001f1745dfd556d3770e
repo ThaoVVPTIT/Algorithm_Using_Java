@@ -1,0 +1,9 @@
+package cdac.ZigzachTreeNode;
+
+public class BinaryTreeZigZacLevelOrder {
+	public BNTree root;
+	public BinaryTreeZigZacLevelOrder()
+	{
+		
+	}
+}

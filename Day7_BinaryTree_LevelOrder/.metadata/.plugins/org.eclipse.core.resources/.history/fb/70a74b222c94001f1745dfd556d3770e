@@ -1,0 +1,17 @@
+package cdac.searchBinarySearchTree;
+
+public class TestSearchingSearchBinary {
+	public static void main(String arg[])
+	{
+		System.out.println("Testing Searching Binary");
+		SearchBinarySearchTree tree = new SearchBinarySearchTree();
+		NodeTree root = new NodeTree(12);
+		root.leftChild = new NodeTree(32);
+		root.rightChild = new NodeTree(23);
+		root.rightChild.leftChild = new NodeTree(34);
+		root.rightChild.rightChild = new NodeTree(33);
+		
+		NodeTree treesfind = tree.searchBST(root, 33);
+		treesfind.
+	}
+}

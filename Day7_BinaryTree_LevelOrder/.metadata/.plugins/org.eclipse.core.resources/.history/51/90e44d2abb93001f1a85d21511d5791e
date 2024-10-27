@@ -1,0 +1,14 @@
+package cdac.binaryLeetCode;
+
+import cdac.preOrder.BNTree;
+
+public class BNTree {
+	int data;
+	BNTree leftChild;
+	BNTree rightChild;
+	public BNTree() {}
+	public BNTree(int val)
+	{
+		this.data = val;
+	}
+}

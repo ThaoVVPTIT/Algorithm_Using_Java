@@ -1,0 +1,5 @@
+package cdac.ZigzachTreeNode;
+
+public interface BNTreeZigZac{
+	
+}

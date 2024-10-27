@@ -1,0 +1,30 @@
+package cdac.ZigzachTreeNode;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class BinaryTreeZigZacLevelOrder implements BNTreeZigZac{
+	public BNTree root;
+	public BinaryTreeZigZacLevelOrder()
+	{
+		
+	}
+	@Override
+	public List<List<Integer>> levelOrderZigZac(BNTree root, int val) {
+		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		if(root == null)
+		{
+			return result;
+		}
+		Queue<BNTree> q = new LinkedList<BNTree>();
+		q.offer(root);
+		boolean leftRight = true;
+		while(!q.isEmpty())
+		{
+			
+		}
+	}
+	
+}

@@ -1,0 +1,23 @@
+package cdac.binaryLeetCode;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BinaryTreeLevelTraverselOrder implements BNTreeFunctional{
+	public BNTree root;
+	public BinaryTreeLevelTraverselOrder() {}
+	
+	private List<List<Integer>> levelOrder(BNTree root, int val)
+	{
+		List<List<Integer>> result = new ArrayList<List<Integer>>();
+		if(root == null)
+		{
+			return result;
+		}
+	}
+	@Override
+	public void levelOrder(int element) {
+		
+	}
+	
+}

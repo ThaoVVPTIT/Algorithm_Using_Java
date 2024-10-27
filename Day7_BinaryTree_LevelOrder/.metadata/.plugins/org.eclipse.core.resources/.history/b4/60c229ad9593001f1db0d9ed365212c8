@@ -1,0 +1,10 @@
+package cdac.orderLevel;
+
+public class BinaryTreeLevelOrderTesting {
+	public static void main(String arg[])
+	{
+		BinaryTreeLevelOrder levelOrders = new BinaryTreeLevelOrder();
+		BNTree root = new BNTree(3);
+		root.leftchild = new BNTree(56);
+	}
+}

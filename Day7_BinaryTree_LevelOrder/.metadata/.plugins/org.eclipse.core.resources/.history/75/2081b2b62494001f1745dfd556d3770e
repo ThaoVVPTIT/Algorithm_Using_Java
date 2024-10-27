@@ -1,0 +1,10 @@
+package cdac.ZigzachTreeNode;
+
+public class ZigZacBinaryNodeMain {
+	public static void main(String arg[])
+	{
+		BinaryTreeZigZacLevelOrder tree = new BinaryTreeZigZacLevelOrder();
+		
+		BNTree root = new BNTree(12);
+	}
+}

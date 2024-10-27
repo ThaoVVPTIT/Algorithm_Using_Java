@@ -1,0 +1,5 @@
+package cdac.binary;
+
+public interface BNTreeFunction {
+	
+}

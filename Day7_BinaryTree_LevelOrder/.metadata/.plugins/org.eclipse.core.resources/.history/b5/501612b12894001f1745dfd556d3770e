@@ -1,0 +1,5 @@
+package cdac.searchBinarySearchTree;
+
+public interface SearchBinaryFunction {
+	public TreeNode searchBST(TreeNode root, int val);
+}
