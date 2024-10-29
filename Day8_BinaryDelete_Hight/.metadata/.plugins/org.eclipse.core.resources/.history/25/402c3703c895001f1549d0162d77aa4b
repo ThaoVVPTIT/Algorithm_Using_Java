@@ -1,0 +1,13 @@
+package cdac.deleteBNT;
+
+public class TestingDeleteNodeOfBNRT {
+	public static void main(String arg[])
+	{
+		BinaryTreeDeleteNode root = new BinaryTreeDeleteNode();
+		root.insert(1000);
+		root.insert(100);
+		root.insert(10);
+		root.insert(1);
+		root.printUsingLevelOrder();
+	}
+}

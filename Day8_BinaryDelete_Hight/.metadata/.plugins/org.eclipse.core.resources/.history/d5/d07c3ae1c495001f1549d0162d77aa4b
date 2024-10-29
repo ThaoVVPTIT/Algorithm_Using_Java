@@ -1,0 +1,59 @@
+package cdac.deleteBNT;
+
+public class BinaryTreeDeleteNode {
+	public TreeNode root;
+	public BinaryTreeDeleteNode() {}
+	public void insert(TreeNode root, int val)
+	{
+		if(root == null)
+		{
+			root = new TreeNode(val);
+			return;
+		}
+		TreeNode current = root;
+		while(current != null)
+		{
+			if(val < root.data)
+			{
+				if(current.leftChild == null)
+				{
+					current.leftChild = new TreeNode(val);
+				}
+				else current = current.leftChild;
+			}
+			else
+			{
+				if(current.rightChild == null)
+				{
+					current.rightChild = new TreeNode(val);
+					return;
+				}
+				else current = current.rightChild;
+			}
+		}
+	}
+	public void delete(TreeNode root, int val)
+	{
+		TreeNode current = root;
+		TreeNode parent  = null;
+		while(current != null)
+		{
+			if(current.data == val)
+			{
+				break;
+			}
+			current = parent;
+		}
+		if(root.data == val)
+		{
+			root = null;
+			return;
+		}
+		/*Delete leaf of Binary Tree*/
+		if(current.leftChild == null && current.rightChild == null)
+		{
+			
+		}
+		
+	}
+}

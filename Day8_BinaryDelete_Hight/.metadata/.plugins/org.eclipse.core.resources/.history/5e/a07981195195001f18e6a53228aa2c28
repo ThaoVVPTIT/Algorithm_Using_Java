@@ -1,0 +1,7 @@
+package cdac.deleteBNT;
+
+public class TreeNode {
+	int data;
+	TreeNode leftChild;
+	TreeNode rightChild;
+}

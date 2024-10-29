@@ -1,0 +1,5 @@
+package cdac.insertTreeNode;
+
+public class CounterEdgesMaxTreeNode implements FunctionTreeNode{
+	
+}

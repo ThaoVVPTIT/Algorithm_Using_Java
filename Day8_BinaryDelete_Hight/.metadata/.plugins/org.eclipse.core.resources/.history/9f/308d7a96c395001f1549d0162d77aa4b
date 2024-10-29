@@ -1,0 +1,10 @@
+package cdac.deleteBNT;
+
+public class BinaryTreeDeleteNode {
+	public TreeNode root;
+	public BinaryTreeDeleteNode() {}
+	public delete(TreeNode root, int val)
+	{
+		
+	}
+}

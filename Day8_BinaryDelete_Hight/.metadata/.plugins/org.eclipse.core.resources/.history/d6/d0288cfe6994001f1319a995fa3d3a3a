@@ -1,0 +1,17 @@
+package cdac.insertTreeNode;
+
+public class CounterEdgesMaxTreeNode implements FunctionTreeNode{
+	public TreeNode roots;
+	@Override
+	public void insert(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

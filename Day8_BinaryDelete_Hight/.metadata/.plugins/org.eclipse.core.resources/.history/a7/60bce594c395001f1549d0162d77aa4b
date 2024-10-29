@@ -1,0 +1,5 @@
+package cdac.deleteBNT;
+
+public class BinaryTreeDeleteNode {
+	public root;
+}

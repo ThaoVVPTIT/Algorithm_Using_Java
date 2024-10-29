@@ -1,0 +1,93 @@
+package cdac.deleteBNT;
+
+public class BinaryTreeDeleteNode {
+	public TreeNode root;
+	public BinaryTreeDeleteNode() {}
+	public void insert(TreeNode root, int val)
+	{
+		if(root == null)
+		{
+			root = new TreeNode(val);
+			return;
+		}
+		TreeNode current = root;
+		while(current != null)
+		{
+			if(val < root.data)
+			{
+				if(current.leftChild == null)
+				{
+					current.leftChild = new TreeNode(val);
+				}
+				else current = current.leftChild;
+			}
+			else
+			{
+				if(current.rightChild == null)
+				{
+					current.rightChild = new TreeNode(val);
+					return;
+				}
+				else current = current.rightChild;
+			}
+		}
+	}
+	public void delete(TreeNode root, int val)
+	{
+		TreeNode current = root;
+		TreeNode parent  = null;
+		while(current != null)
+		{
+			if(current.data == val)
+			{
+				break;
+			}
+			current = parent;
+			if(val < current.data)
+			{
+				current = current.leftChild;
+			}
+			else current = current.rightChild;
+		}
+		if(current == null)
+		{
+			return;
+		}
+		/*Delete leaf node*/
+		/*Delete leaf of Binary Tree*/
+		if(current.leftChild == null && current.rightChild == null)
+		{
+			if(current.data == val)
+			{
+				current = null;
+				return;
+			}
+			if(current == parent.leftChild)
+			{
+				parent.leftChild = null;
+			}
+			if(current == parent.rightChild)
+			{
+				parent.rightChild = null;
+			}
+		}
+		/*Delete node have only one child*/
+		TreeNode childOfOldParent = null;
+		if(current.leftChild == null)
+		{
+			childOfOldParent = current.rightChild;
+		}
+		if(current.rightChild == null)
+		{
+			childOfOldParent = current.leftChild;
+		}
+		if(childOfOldParent != null)
+		{
+			if(current == parent.leftChild)
+			{
+				parent.leftChild = childOfOldParent;
+			}
+		}
+		
+	}
+}

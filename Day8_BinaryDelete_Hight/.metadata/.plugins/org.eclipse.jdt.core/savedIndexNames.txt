@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\CDAC\ADS_UsingJava\Day8_BinaryDelete_Hight\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+4209063287.index
+4094150549.index
+1865797976.index
