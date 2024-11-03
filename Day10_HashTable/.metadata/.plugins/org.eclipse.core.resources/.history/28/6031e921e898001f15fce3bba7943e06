@@ -1,0 +1,8 @@
+package cdac.hashtable;
+
+public class HashTableLP {
+	private int size;
+	private double factorLoad;
+	private Integer []buckets;
+	
+}

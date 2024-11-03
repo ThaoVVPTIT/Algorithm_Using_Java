@@ -1,0 +1,20 @@
+package cdac.searching;
+
+import java.util.Scanner;
+
+public class FindUsingBinarySearching {
+	public static void main(String arg[])
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Testing Sorting Find Using Binary Search");
+		System.out.println();
+		System.out.println("Enter Number of TestCase t =");
+		int t = scan.nextInt();
+		while(t > 0)
+		{
+			System.out.println("Enter Size of Arrays n = ");
+			int n = scan.nextInt();
+		}
+		scan.close();
+	}
+}

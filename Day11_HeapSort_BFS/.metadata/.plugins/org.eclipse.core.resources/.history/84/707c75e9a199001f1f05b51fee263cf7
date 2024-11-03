@@ -1,0 +1,12 @@
+package cdac.heapsort;
+
+import java.util.Scanner;
+
+public class HeapSortArrays {
+	public static void main(String arg[])
+	{
+		System.out.println("Checking HeapSort running");
+		Scanner scan = new Scanner(System.in);
+		scan.close();
+	}
+}

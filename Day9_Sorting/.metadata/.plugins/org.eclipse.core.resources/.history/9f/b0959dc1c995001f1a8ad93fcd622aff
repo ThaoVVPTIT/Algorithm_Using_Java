@@ -1,0 +1,20 @@
+package cdac.sortingLinear;
+
+import java.util.Scanner;
+
+public class findUsingLinearSearch {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter size of Array n = ");
+		int n = scan.nextInt();
+		int []arr = new int[100];
+		for(int i = 0; i < n; i++)
+		{
+			System.out.printf("Enter Array[%d] = ", i);
+			arr[i] = scan.nextInt();
+		}
+		FindingUsingLinear(arr, n);
+	}
+
+}

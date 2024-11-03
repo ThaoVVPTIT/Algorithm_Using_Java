@@ -1,0 +1,13 @@
+package cdac.excersise;
+
+public class LeetCode_SignalElementSortedArrays {
+	public static int checkingSigleElement(int []arr, int n)
+	{
+		
+	}
+	public static void main(String[] args) {
+	
+
+	}
+
+}

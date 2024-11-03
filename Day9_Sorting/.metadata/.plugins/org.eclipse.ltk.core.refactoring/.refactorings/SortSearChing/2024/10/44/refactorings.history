@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SortSearChing&apos;&#x0D;&#x0A;- Original project: &apos;SortSearChing&apos;&#x0D;&#x0A;- Original element: &apos;SortSearChing/src/cdac.excersise.leetcode&apos;" description="Delete element" element1="/src&lt;cdac.excersise.leetcode" element2="/src&lt;cdac.excersise" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1730395335775" subPackages="false" version="1.0"/>
+</session>

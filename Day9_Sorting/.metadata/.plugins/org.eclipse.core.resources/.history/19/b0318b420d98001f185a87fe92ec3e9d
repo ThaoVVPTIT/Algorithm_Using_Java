@@ -1,0 +1,12 @@
+package cdac.excersise;
+
+public class QickSortDecensing {
+	public static void partion(int []arr, int left, int right)
+	{
+		
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

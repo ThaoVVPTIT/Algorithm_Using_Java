@@ -1,0 +1,6 @@
+package cdac.hashtable;
+
+public interface HashTable {
+	public void insert(int element);
+	public void search(int element);
+}

@@ -1,0 +1,17 @@
+package cdac.excersise;
+
+public class LeetCode_SignalElementSortedArrays {
+	public static int singleNonDuplicate(int []arr, int n)
+	{
+		for(int i = 0; i < n; i++)
+		{
+			
+		}
+		return n;
+	}
+	public static void main(String[] args) {
+	
+
+	}
+
+}

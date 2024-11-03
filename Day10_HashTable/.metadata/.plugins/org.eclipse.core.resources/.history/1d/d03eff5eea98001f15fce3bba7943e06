@@ -1,0 +1,63 @@
+package cdac.hashtable;
+
+public class HashTableLP implements HashTable{
+	private int size;
+	private double factorLoad;
+	private Integer []buckets;
+	private int keyCount;
+	public HashTableLP()
+	{
+		this.size = 5;
+		this.factorLoad = 0.7;
+		buckets = new Integer[size];
+		keyCount = 0;
+	}
+	public int modN(int key)
+	{
+		return key % size;
+	}
+	private void resizeTable()
+	{
+		size = size * 2;
+		System.out.println("Size new Of Table " + size);
+		Integer []oldBuckets = buckets;
+		buckets = new Integer[size];
+		for(Integer key : oldBuckets)
+		{
+			if(key != null) insert(key);
+		}
+		System.out.println("Rewsize HashTable Name");
+	}
+	@Override
+	public void insert(int element) {
+		if(keyCount >= (size*factorLoad))
+		{
+			resizeTable();
+		}
+		int bucketId = modN(element);
+		if(buckets[bucketId] == null)
+		{
+			buckets[bucketId] = element;
+			++keyCount;
+			System.out.println("Storing key " + element + " in bucket #" + bucketId );
+			return;
+		}
+		int i = (bucketId + 1) % size;
+		int count = 1;
+		while(count < size)
+		{
+			if(buckets[bucketId] == null)
+			{
+				buckets[bucketId] = element;
+				++keyCount;
+				System.out.println("Storing key" + element + "in bucket #" + bucketId);
+			}
+		}
+	}
+	@Override
+	public void search(int element) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

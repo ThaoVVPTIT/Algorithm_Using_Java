@@ -1,0 +1,5 @@
+package cdac.sortingLinear;
+
+public class InSertionSort {
+
+}

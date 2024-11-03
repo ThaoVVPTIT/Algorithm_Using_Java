@@ -1,0 +1,23 @@
+package cdac.excersise;
+
+import cdac.nodeList.ListNode;
+
+public class LeetCode_MergeSortedList {
+	public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+		ListNode result = new ListNode(0);
+		ListNode current = result;
+		while(list1 != null && list2 != null)
+		{
+			if(list1.data < list2.data)
+			{
+				current.next = list1;
+				list1 = list1.next;
+			}
+		}
+	}
+	public static void main(String arg[])
+	{
+		System.out.println("Checking merge List Node ");
+		
+	}
+}

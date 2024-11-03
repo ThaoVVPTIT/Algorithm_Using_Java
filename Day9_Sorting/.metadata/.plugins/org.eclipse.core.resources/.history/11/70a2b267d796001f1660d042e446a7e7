@@ -1,0 +1,8 @@
+package cdac.searching;
+
+public class FindUsingBinarySearching {
+	public static void main(String arg[])
+	{
+		System.out.println("Testing ");
+	}
+}

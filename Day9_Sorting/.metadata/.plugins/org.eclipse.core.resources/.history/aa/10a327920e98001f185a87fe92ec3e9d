@@ -1,0 +1,35 @@
+package cdac.excersise;
+
+import java.util.Scanner;
+
+public class MergerSortDecensing {
+	public static void main(String arg[])
+	{
+		System.out.println("Testing Merge sort decensing");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter size of Arrays = ");
+		int n = scan.nextInt();
+		int []arr = new int[100];
+		for(int i = 0; i < n; i++)
+		{
+			System.out.printf("Enter Arrays[%d] = ", i);
+			arr[i] = scan.nextInt();
+		}
+		System.out.println("Before Arrays Sort");
+		for(int i = 0; i < n; i++)
+		{
+			System.out.print(arr[i] + " ");
+			if(i < n - 1) System.out.print(", ");
+		}
+		System.out.println();
+		System.out.println("After sort using merge sort");
+		MergerSorted(arr, 0, n - 1);
+		for(int i = 0; i < n; i++)
+		{
+			System.out.print(arr[i] + " ");
+			if(i < n - 1) System.out.print(", ");
+		}
+		System.out.println();
+		scan.close();
+	}
+}

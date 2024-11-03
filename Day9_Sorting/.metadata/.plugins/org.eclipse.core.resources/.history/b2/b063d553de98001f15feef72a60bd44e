@@ -1,0 +1,57 @@
+package cdac.excersise;
+
+import java.util.Scanner;
+
+public class LeetCode_SearchRotatedArrays {
+	public static int search(int[] arr, int target) {
+	    if (arr == null || arr.length == 0) return -1;
+
+	    int left = 0, right = arr.length - 1;
+
+	    while (left <= right) {
+	        int mid = left + (right - left) / 2;
+
+	        // Kiểm tra nếu phần tử ở mid là target
+	        if (arr[mid] == target) {
+	            return mid;
+	        }
+
+	        // Kiểm tra nửa bên trái có được sắp xếp hay không
+	        if (arr[left] <= arr[mid]) {  // Nửa bên trái đã sắp xếp
+	            // Kiểm tra nếu target nằm trong nửa bên trái
+	            if (arr[left] <= target && target < arr[mid]) {
+	                right = mid - 1;
+	            } else {
+	                left = mid + 1;
+	            }
+	        } else {  // Nửa bên phải đã sắp xếp
+	            // Kiểm tra nếu target nằm trong nửa bên phải
+	            if (arr[mid] < target && target <= arr[right]) {
+	                left = mid + 1;
+	            } else {
+	                right = mid - 1;
+	            }
+	        }
+	    }
+
+	    return -1;  // Nếu không tìm thấy target
+	}
+	public static void main(String arg[])
+	{
+		System.out.println("Checking Search Rotated Arrays");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter size of arrays = ");
+		int n = scan.nextInt();
+		int []arr = new int[100];
+		for(int i = 0; i < n; i++)
+		{
+			System.out.printf("Enter Arrays[%d] = ", i);
+			arr[i] = scan.nextInt();
+		}
+		System.out.println("Enter target = ");
+		int target = scan.nextInt();
+		int val = search(arr, target);
+		System.out.println("Vale = " + val);
+		scan.close();
+	}
+}

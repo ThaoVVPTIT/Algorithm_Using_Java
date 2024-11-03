@@ -1,0 +1,23 @@
+package cdac.excersise;
+
+public class QickSortDecensing {
+	public static void partion(int []arr, int left, int right)
+	{
+		int pivot = arr[right];
+		int i = left - 1;
+		for(int j = left; j < right; j++)
+		{
+			if(arr[j] > pivot)
+			{
+				i++;
+				int temp = arr[j];
+				arr[j] = arr[i];
+				arr[i] = temp;
+			}
+		}
+	}
+	public static void main(String arg[])
+	{
+		
+	}
+}

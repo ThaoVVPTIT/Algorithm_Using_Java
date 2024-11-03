@@ -1,0 +1,14 @@
+package cdac.excersise;
+
+import cdac.nodeList.ListNode;
+
+public class LeetCode_MergeSortedList {
+	public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+		int n = list1.
+	}
+	public static void main(String arg[])
+	{
+		System.out.println("Checking merge List Node ");
+		
+	}
+}

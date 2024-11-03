@@ -1,0 +1,25 @@
+package cdac.excersise;
+
+import cdac.nodeList.ListNode;
+
+public class LeetCode_MergeSortedLinkList {
+	 public static void main(String[] args) {
+	        ListNode[] lists = new ListNode[3];
+	        lists[0] = new ListNode(1);
+	        lists[0].next = new ListNode(4);
+	        lists[0].next.next = new ListNode(5);
+
+	        lists[1] = new ListNode(1);
+	        lists[1].next = new ListNode(3);
+	        lists[1].next.next = new ListNode(4);
+
+	        lists[2] = new ListNode(2);
+	        lists[2].next = new ListNode(6);
+
+	        MergeKSortedLists solution = new MergeKSortedLists();
+	        ListNode mergedList = solution.mergeKLists(lists);
+
+	        System.out.print("Merged list: ");
+	        printList(mergedList);  // Kết quả: 1 1 2 3 4 4 5 6
+	    }
+}

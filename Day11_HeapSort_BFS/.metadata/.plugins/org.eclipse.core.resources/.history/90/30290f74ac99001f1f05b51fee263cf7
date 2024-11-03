@@ -1,0 +1,44 @@
+package cdac.grap;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AdjListGraph implements Grap{
+	List<List<Edges>> adjList;
+	int vertexCount;
+	boolean isDirected;
+	public AdjListGraph(int n, boolean isDirected)
+	{
+		vertexCount = n;
+		this.isDirected = isDirected;
+		adjList = new ArrayList<>(vertexCount);
+		for(int i = 0; i < vertexCount; i++)
+		{
+			adjList.add(new ArrayList<Edges>());
+		}
+	}
+	@Override
+	public void addEdge(int u, int v) {
+		addEdge(u, v, 1);
+	}
+	@Override
+	public void addEdge(int u, int v, int w) {
+		 adjList.get(u).add(new EdgeInfo(v, w));
+	}
+	@Override
+	public void printBFS(int startVertex) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void printDFS(int startVertex) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void dijkstraShortestPath(int startVertex, int destVertex) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

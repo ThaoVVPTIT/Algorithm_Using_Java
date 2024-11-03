@@ -1,0 +1,8 @@
+package cdac.sorting;
+
+public class MergeSort {
+	public static void main(String arg[])
+	{
+		System.out.println("Testing Merge Sort for Arrays");
+	}
+}

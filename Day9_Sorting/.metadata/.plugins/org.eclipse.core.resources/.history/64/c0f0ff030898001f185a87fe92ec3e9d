@@ -1,0 +1,8 @@
+package cdac.excersise;
+
+public class LeetCode_MergeSortedList {
+	public static void main(String arg[])
+	{
+		System.out.println("Checking merge List Node ");
+	}
+}

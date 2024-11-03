@@ -1,0 +1,14 @@
+package cdac.nodeList;
+
+public class ListNode {
+	int data;
+	ListNode next;
+	public ListNode(int val) {
+		this.data = val;
+	}
+	public ListNode(int data, ListNode next)
+	{
+		this.data = data;
+		this.next = next;
+	}
+}

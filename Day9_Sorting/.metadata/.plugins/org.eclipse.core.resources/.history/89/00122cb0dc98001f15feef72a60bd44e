@@ -1,0 +1,20 @@
+package cdac.excersise;
+
+import java.util.Scanner;
+
+public class LeetCode_SearchRotatedArrays {
+	public static void main(String arg[])
+	{
+		System.out.println("Checking Search Rotated Arrays");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter size of arrays = ");
+		int n = scan.nextInt();
+		int []arr = new int[100];
+		for(int i = 0; i < n; i++)
+		{
+			System.out.printf("Enter Arrays[%d] = ", i);
+			arr[i] = scan.nextInt();
+		}
+		scan.close();
+	}
+}

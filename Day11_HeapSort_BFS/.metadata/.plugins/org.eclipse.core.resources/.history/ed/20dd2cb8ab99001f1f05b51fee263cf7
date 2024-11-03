@@ -1,0 +1,12 @@
+package cdac.grap;
+
+public class Edges {
+	int adjVertex; /*Dinh Lien ke*/
+	int weight;    /*Canh */
+	public Edges(int v, int w)
+	{
+		this.adjVertex = v;
+		this.weight = w;
+		
+	}
+}

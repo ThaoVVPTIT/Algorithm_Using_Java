@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="cdac.sortingLinear.BubbleSort"/>
+    <fullyQualifiedTypeName name="java.time.chrono.MinguoDate"/>
+    <fullyQualifiedTypeName name="cdac.excersise.LeetCode_MergeSortedArray"/>
+    <fullyQualifiedTypeName name="cdac.excersise.LeetCode_MergeSortedList"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.PriorityBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="cdac.nodeList.ListNode"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

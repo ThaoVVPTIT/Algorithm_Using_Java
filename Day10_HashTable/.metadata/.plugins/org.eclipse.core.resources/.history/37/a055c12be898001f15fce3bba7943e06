@@ -1,0 +1,15 @@
+package cdac.hashtable;
+
+public class HashTableLP {
+	private int size;
+	private double factorLoad;
+	private Integer []buckets;
+	private int keyCount;
+	public HashTableLP()
+	{
+		this.size = 5;
+		this.factorLoad = 0.7;
+		buckets = new Integer[size];
+		keyCount = 0;
+	}
+}
